@@ -482,7 +482,7 @@ def codechallenge1():
             print("Program Terminated")
             break
         elif ask.lower() == "yes":
-            print ("\t\t\t\t\t\t\t*\n\t\t\t\t\t\t\t\b***\n\t\t\t\t\t\t\t\b\b*****\n\t\t\t\t\t\t\t\b\b\b*******\n\t\t\t\t\t\t\t\b\b*****\n\t\t\t\t\t\t\t\b***\n\t\t\t\t\t\t\t*")
+            print ("\t\t\t\t\t\t\t*\n\t\t\t\t\t\t\t\b***\n\t\t\t\t\t\t\t\b\b*****\n\t\t\t\t\t\t\t\b\b\b*******\n\t\t\t\t\t\t\t\b\b*****\n\t\t\t\t\t\t\t\b***\n\t\t\t\t\t\t\t*") 
     else:
         print("Invalid answer, pls only answer 'yes' or 'no'")
 
@@ -983,7 +983,7 @@ def codechallenge16():
 
                 elif choice == "5":
                     print("Exiting the bank simulation. Goodbye!")
-                    break
+                    break            
     else:
         print("Invalid answer, pls only answer 'yes' or 'no'")
 
@@ -992,175 +992,172 @@ isContinue = True
 
 while isContinue:
     
-    print("HI WELCOME TO MY PROGRAM")
-    print("========================")
-    print("1.Activities 2.CodeChallange")
-    ask = input("What do want to open? ")
+    print("\t\t\t\t\t\t\tHI WELCOME TO MY PROGRAM")
+    print("\t\t\t\t=============================================================================")
+    print("\t\t\t\t\t\t\b\b\bHi this is my code projects as a first year IT")
+    print("\t\t\t\t\t\t\b\b\b\b\bit is divided into two, Activities and CodeChallenge")
+    print("\t\t\t\t=============================================================================")
+    print("\t\t\t\t\t\t\t\t\t\t\t")
+    print("\b\t\t\t\t\t1.Activities \t\t\t\t\t\b\b2.CodeChallange")
+    print("\t\t\t\t\t\t\t\t\b\b\b\b\bWhat do want to open?")
+    print("\t\t\t\t\t\t\t\b\b\bPress 'stop' to stop the program.")
+    ask = input("\t\t\t\t\t\t\t\t\t\b\b\b\b\b\b\b\b\b\b\bEnter Here: ")
     
-    if ask.lower() == "1":
-        print("SELECT FROM THE FOLLOWING CODE \n1 = activity1 \n2 = activity2 \n3 = activity3 \n4 = activity4 \n5 = activity5 \n6 = activity6 \n7 = activity7 \n8 = activity8 \n9 = activity9 \n10 = activity10 \n11 = activity11 \n12 = activity12 \n13 = activity13 \n14 = activity14 \n15 = activity15 \n16 = activity16 \n17 = activity17 \n18 = activity18 \n19 = activity19 \n20 = activity20 \n21 = activity21")
+    if ask == "stop":
+        print("\t\t\t\t=============================================================================")
+        print("\t\t\t\t\t\t\t\b\bThankyou for using the system!")
+        print("\t\t\t\t\t\t⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⠀⠀⠀⢀⡤⠤⠤⣄⠀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
+        print("\t\t\t\t\t\t⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⠤⢴⣴⠒⠉⠹⣴⣏⠀⠀⠀⡀⠈⢇⠀⠀⣼⠀⠀⠀⠘⣶⠇⠀⢨⢃⡾⠓⠲⢤⠀⠀⠀⠀")
+        print("\t\t\t\t\t\t⠀⠀⠀⣀⠤⠔⠒⠙⣯⣇⠀⠈⣿⣇⠀⠀⣿⣿⣿⠀⠀⣷⠀⠘⡄⠀⣿⠀⠀⠀⠀⢹⠀⠀⢸⡏⠇⠀⢀⠇⣀⠤⠒⠒⠤⣄")
+        print("\t\t\t\t\t\t⢰⡖⠉⠀⠀⠀⠀⣀⣸⣿⠀⠀⠉⠉⠀⠀⢸⠁⣿⠀⠈⠉⠁⠀⢱⠀⣿⠀⠀⣦⠀⠀⠀⠀⣿⡸⠀⠀⠘⠉⠀⠀⣀⣤⣴⠟")
+        print("\t\t\t\t\t\t⢼⢣⣀⣴⡀⠀⠘⡿⠏⠗⡆⠀⠠⣶⡆⠀⠸⡄⡏⠀⠀⣶⣷⠀⠀⢧⣿⠀⠀⣿⡆⠀⠀⢸⣿⠃⠀⢰⡄⠀⠐⡿⠛⠋⠀⠀")
+        print("\t\t\t\t\t\t⠘⢿⡿⢿⣧⠀⠀⢳⠀⢸⠸⠀⠀⢹⣧⢀⣀⣷⣧⣤⣤⠛⣏⣦⣤⣾⣿⢦⣤⣿⢸⣄⣀⣼⡏⠀⢠⡟⡇⠀⠀⡇⠀⠀⠀⠀")
+        print("\t\t\t\t\t\t⠀⠀⠀⠀⢏⢇⠀⠀⣣⠀⣆⣷⣶⣿⣿⡿⠿⠿⢷⡿⠟⣠⠟⠋⠛⢿⡛⠛⠿⡼⠿⠿⢿⣿⣿⣶⠞⡅⢸⠀⠀⢸⠀⠀⠀")
+        print("\t\t\t\t\t\t⠀⠀⠀⠀⠘⣾⣿⣿⠇⢠⣟⠉⠙⠷⡿⠀⠀⠀⢸⢀⡼⠁⠀⣀⠀⠀⠹⡄⡼⡇⠀⠀⡜⣸⡏⠙⠢⣧⣾⣦⣀⢸⠀⠀⠀")
+        print("\t\t\t\t\t\t⠀⠀⠀⠀⠀⠈⠀⠀⠀⢿⣿⣷⣦⡀⠀⠀⠀⠀⣇⡾⠀⠀⣼⣿⢷⠀⠀⢻⢱⠀⠀⢀⣿⡿⠀⠀⢠⠋⢻⡿⠿⣏⠀⠀⠀⠀")
+        print("\t\t\t\t\t\t⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⣿⣿⠆⠀⠀⢸⡏⡇⠀⠀⡏⡟⡟⠀⠀⢸⡸⠀⠀⢸⣿⠃⠀⠀⡜⡰⢩⠃⠀⠈⣱⠀⠀⠀")
+        print("\t\t\t\t\t\t⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⢹⠀⠀⠀⢸⠀⡇⠀⠀⠙⠋⠀⠀⢀⡏⡇⠀⠀⠘⠋⠀⠀⣰⣱⢣⠇⠀⠀⣰⠃⠀⠀⠀")
+        print("\t\t\t\t\t\t⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡘⡎⠀⠀⠀⡏⣿⣧⡀⠀⠀⠀⠀⢀⣾⣷⡇⠀⠀⠀⠀⠀⢠⣯⣧⣾⣦⣄⣰⠃⠀⠀⠀⠀")
+        print("\t\t\t\t\t\t⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣧⣧⣤⣶⣶⠃⠘⢿⣿⣷⣶⣶⣾⠟⠉⣿⣿⣦⣄⣀⣠⣴⢏⣽⠋⠉⠙⢿⠁⠀⠀⠀⠀")
+        print("\t\t\t\t\t\t⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠛⠛⠛⠋⠁⠀⠀⠀⠉⠉⠉⠉⠀⠀⠀⠈⠛⠻⠿⠟⠋⠁⣿⣿⣦⣀⣀⡼⠀⠀⠀⠀⠀⠀")
+        print("\t\t\t\t\t\t⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠛⠛⠛⠁⠀⠀⠀⠀⠀⠀⠀")
+        isContinue = False
+    
+    elif ask.lower() == "1":
+        print("You selected 1. Activities")
+        print("SELECT FROM THE FOLLOWING CODE \n1 = activity1 \n2 = activity2 \n3 = activity3 \n4 = activity4 \n5 = activity5 \n6 = activity6 \n7 = activity7 \n8 = activity8 \n9 = activity9 \n10 = activity10 \n11 = activity11 \n12 = activity12 \n13 = activity13 \n14 = activity14 \n15 = activity15 \n16 = activity16 \n17 = activity17 \n18 = activity18 \n19 = activity19 \n20 = activity20 \n21 = activity21 \nb = Back")
         ask = input("Which program would you like to run?, Please select from the option above, Enter Here ==> ")
 
         if ask == "1":
             activity1()
-            continue
-
+            
         elif ask == "2":
             activity2()
-            continue
-
+            
         elif ask == "3":
             activity3()
-            continue
-
+            
         elif ask == "4":
             activity4()
-            continue
-
+            
         elif ask == "5":
             activity5()
-            continue
-
+            
         elif ask == "6":
             activity6()
-            continue
-
+          
         elif ask == "7":
             activity7()
-            continue
-
+            
         elif ask == "8":
             activity8()
-            continue
-
+            
         elif ask == "9":
             activity9()
-            continue
-
+            
         elif ask == "10":
             activity10()
-            continue
-
+            
         elif ask == "11":
             activity11()
-            continue
-
+            
         elif ask == "12":
             activity12()
-            continue
-
+            
         elif ask == "13":
             activity13()
-            continue
-
+        
         elif ask == "14":
             activity14()
-            continue
-
+            
         elif ask == "15":
             activity15()
-            continue
-
+            
         elif ask == "16":
             activity16()
-            continue
-
+            
         elif ask == "17":
             activity17()
-            continue
-
+            
         elif ask == "18":
             activity18()
-            continue
-
+            
         elif ask == "19":
             activity19()
-            continue
-
+            
         elif ask == "20":
             activity20()
-            continue
-
+    
         elif ask == "21":
             activity21()
-            continue
 
-        elif ask == "stop":
-            print("The Program Terminated")
-            print("Thankyou for using the system!")
-            break
+        elif ask == "b":
+            continue  
+        
+        else:
+            print("Invalid Input! Please try again.")
+        
 
     elif ask.lower() == "2":
-        print("SELECT FROM THE FOLLOWING CODE \n1 = codechallenge1 \n2 = codechallenge2 \n3 = codechallenge3 \n4 = codechallenge4 \n5 = codechallenge5 \n6 = codechallenge6 \n7 = codechallenge7 \n8 = codechallenge8 \n9 = codechallenge9 \n10 = codechallenge10 \n11 = codechallenge11 \n12 = codechallenge12 \n13 = codechallenge13 \n14 = codechallenge14 \n15 = codechallenge15 \n16 = codechallenge16 ")
+        print("You selected 2. CodeChallenge")
+        print("SELECT FROM THE FOLLOWING CODE \n1 = codechallenge1 \n2 = codechallenge2 \n3 = codechallenge3 \n4 = codechallenge4 \n5 = codechallenge5 \n6 = codechallenge6 \n7 = codechallenge7 \n8 = codechallenge8 \n9 = codechallenge9 \n10 = codechallenge10 \n11 = codechallenge11 \n12 = codechallenge12 \n13 = codechallenge13 \n14 = codechallenge14 \n15 = codechallenge15 \n16 = codechallenge16 \nb = Back")
         ask = input("Which program would you like to run?, Please select from the option above, Enter Here ==> ")
         
         
         if ask == "1":
             codechallenge1()
-            continue
 
         elif ask == "2":
             codechallenge2()
-            continue
 
         elif ask == "3":
             codechallenge3()
-            continue
 
         elif ask == "4":
             codechallenge4()
-            continue
-
+            
         elif ask == "5":
             codechallenge5()
-            continue
-
+            
         elif ask == "6":
             codechallenge6()
-            continue
-
+            
         elif ask == "7":
             codechallenge7()
-            continue
-
+            
         elif ask == "8":
             codechallenge8()
-            continue
-
+            
         elif ask == "9":
             codechallenge9()
-            continue
-
+            
         elif ask == "10":
             codechallenge10()
-            continue
-
+            
         elif ask == "11":
             codechallenge11()
-            continue
-
+            
         elif ask == "12":
             codechallenge12()
-            continue
-
+            
         elif ask == "13":
             codechallenge13()
-            continue
-
+            
         elif ask == "14":
             codechallenge14()
-            continue
 
         elif ask == "15":
             codechallenge15()
-            continue
-
+            
         elif ask == "16":
             codechallenge16()
-            continue
-
-
-    elif ask.lower() == "stop":
-        print("The Program Terminated")
-        print("Thankyou for using the system!")
-        break
+            
+        elif ask == "b":
+             continue
+        else:
+            print("Invalid Input! Please try again.")
+    
+    else:
+        print("\t\t\t\t=============================================================================")
+        print("\t\t\t\t\t\b\b\b\b\bInvalid Input. Please choose '1' for Activities or '2' for CodeChallenge.")
+        print("\t\t\t\t=============================================================================")
