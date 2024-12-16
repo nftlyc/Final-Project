@@ -659,7 +659,7 @@ def codechallenge8():
                 num = int(input(f"Enter number {u}: "))
                 sum += num
 
-            print(f"The summationof all provided number is {sum}")
+            print(f"The summation of all provided number is {sum}")
     else:
         print("Invalid answer, pls only answer 'yes' or 'no'")
 
